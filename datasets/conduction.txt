@@ -1,0 +1,6 @@
+You can place raw data(/raw_data/) and pre-processed data(/datasetname_number number/) in this folder;
+As we have shown in the snapshot, the processed data folder has a specific name;
+For example, NREL_71_24 represents is one of the NREL datasets, all of which fulfill the datasetname_number_number style. 
+First of all, 7 and 1 denote that in the node dimension data is divided into 70% for the training set, 10% for the validation set, and of course 20% for the test set, where we omit the 2 represented by the test set.
+24 represents the length of the time series of all nodes.
+These numbers in the filename are key data-related parameters in the extrapolation problem, and you can work with the raw data to the extent that it is in the data_preparation folder.
