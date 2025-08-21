@@ -84,7 +84,7 @@ python examples/run.py
 | AQI | Environment| 437     | 43 cities (China)   | 59,710     | Hourly\*  | Air Quality Index (PM2.5); includes latitude/longitude | [LINK](https://github.com/Graph-Machine-Learning-Group/grin) |
 
 ---
-## ⚖️ Baselines
+## 📚 Baselines
 
 | Name     | Paper Title                                                                 | Venue   | Year | Link                                                                                  | Type |
 |----------|-----------------------------------------------------------------------------|---------|------|---------------------------------------------------------------------------------------|------|
