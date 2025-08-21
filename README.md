@@ -1,6 +1,22 @@
 # STA-GANN: A Valid and Generalizable Spatio-Temporal Kriging Approach
 
-Official implementation of **"STA-GANN: A Valid and Generalizable Spatio-Temporal Kriging Approach"**, accepted at **CIKM 2026**.  
+Official repository for the paper:  
+**"STA-GANN: A Valid and Generalizable Spatio-Temporal Kriging Approach"**  
+Accepted at **ACM CIKM 2025**.  
+
+---
+
+## 📖 Table of Contents
+- [Introduction](#-introduction)
+- [Key Contributions](#-key-contributions)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Datasets](#-datasets)
+- [Results](#-results)
+- [Citation](#-citation)
+- [Contact](#-contact)
+
+---
 
 ## 📖 Introduction
 
@@ -13,12 +29,22 @@ However, existing models face challenges in:
 
 To address these issues, we propose **Spatio-Temporal Aware Graph Adversarial Neural Network (STA-GANN)**, a novel GNN-based kriging framework that enhances both validity and generalization of spatio-temporal pattern inference.  
 
-### 🔑 Key Contributions
+---
+
+## 🔑 Key Contributions
 - **Decoupled Phase Module (DPM):** Detects and adjusts timestamp shifts.  
 - **Dynamic Data-Driven Metadata Graph Modeling (DMGM):** Updates spatial relationships using temporal signals and metadata.  
 - **Adversarial Transfer Learning Strategy:** Ensures robust generalization to unseen sensors.  
 
-We validate STA-GANN on **9 datasets across 4 domains**, supported by theoretical analysis and empirical experiments, demonstrating **superior performance and generalizability** over state-of-the-art methods.  
+---
 
 ## 📂 Repository Structure
+```bash
+├── data/              # Datasets (or instructions to download)
+├── models/            # Core model implementations
+├── configs/           # YAML config files
+├── utils/             # Helper functions
+├── train.py           # Training script
+├── test.py            # Evaluation script
+└── README.md          # Project documentation
 
