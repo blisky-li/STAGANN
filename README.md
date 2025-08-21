@@ -83,6 +83,20 @@ python examples/run.py
 | USHCN | Climate    | 1,218   | 1899 – 2019         | 1,440      | Monthly   | Precipitation; includes latitude/longitude | [LINK](https://github.com/Kaimaoge/IGNNK) |
 | AQI | Environment| 437     | 43 cities (China)   | 59,710     | Hourly\*  | Air Quality Index (PM2.5); includes latitude/longitude | [LINK](https://github.com/Graph-Machine-Learning-Group/grin) |
 
+### 📌 Data Split
+
+For spatio-temporal kriging experiments, we split the data along **two dimensions**:
+
+1. **Node Split**  
+   - 7:1:2 ratio  
+   - 7 parts for known sensors in training  
+   - 1 part for unknown sensors in validation  
+   - 2 parts for unknown sensors in test  
+
+2. **Series Split**  
+   - 7:3 ratio  
+   - 7 parts for training  
+   - 3 parts for validation & test
 ---
 ## 📚 Baselines
 
