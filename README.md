@@ -34,13 +34,13 @@ To address these issues, we propose **Spatio-Temporal Aware Graph Adversarial Ne
 
 ## 🔑 Key Contributions
 - **Decoupled Phase Module (DPM):** Detects and adjusts timestamp shifts.  
-- **Dynamic Data-Driven Metadata Graph Modeling (DMGM):** Updates spatial relationships using temporal signals and metadata.  
+- **Dynamic Data-Driven Metadata Graph Modeling (D3MGM):** Updates spatial relationships using temporal signals and metadata.  
 - **Adversarial Transfer Learning Strategy:** Ensures robust generalization to unseen sensors.  
 
 ---
 
 ## 📂 Repository Structure
-Our STA-GANN and STKriging implementations are developed based on **BasicTS (Dec 2024 release)**.  
+Our STA-GANN and STKriging implementations are developed based on **BasicTS (Dec 2023 release)**.  
 We plan to continuously follow the updates of BasicTS to ensure that our framework remains fully aligned with the official version.  
 
 The current repository structure is as follows:
