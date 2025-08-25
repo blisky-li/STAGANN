@@ -4,6 +4,7 @@ Official repository for the paper:
 **"STA-GANN: A Valid and Generalizable Spatio-Temporal Kriging Approach"**  
 Accepted at **ACM CIKM 2025**.  
 
+[![arXiv](https://img.shields.io/badge/arXiv-2508.16161-b31b1b.svg)](http://arxiv.org/abs/2508.16161)
 ---
 
 ## 📖 Table of Contents
@@ -115,7 +116,9 @@ For spatio-temporal kriging experiments, we split the data along **two dimension
 ---
 ## 📜 Citation
 
-arXiv link & citation is coming soon!
+arXiv link: http://arxiv.org/abs/2508.16161
+
+The citation is coming soon!
 
 ---
 
