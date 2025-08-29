@@ -118,7 +118,16 @@ For spatio-temporal kriging experiments, we split the data along **two dimension
 
 arXiv link: http://arxiv.org/abs/2508.16161
 
-The citation is coming soon!
+The citation:
+
+```Latex
+@article{li2025sta,
+  title={STA-GANN: A Valid and Generalizable Spatio-Temporal Kriging Approach},
+  author={Li, Yujie and Shao, Zezhi and Yu, Chengqing and Qian, Tangwen and Zhang, Zhao and Du, Yifan and He, Shaoming and Wang, Fei and Xu, Yongjun},
+  journal={arXiv preprint arXiv:2508.16161},
+  year={2025}
+}
+```
 
 ---
 
